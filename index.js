@@ -7,7 +7,10 @@ const app =  express();
  app.use(express.json())
 const PORT=  8000;
 Connection()
-//index.js is comming
+
+
+// index.js is solve but mongo dp is dhokha giving us
+
 app.use("/", todoRouter)
 app.use(express.urlencoded({extended:true}))
 app.listen(PORT, ()=> console.log("server is runnig in 8000 port"))
