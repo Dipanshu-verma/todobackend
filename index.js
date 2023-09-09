@@ -9,7 +9,7 @@ const PORT=  8000;
 Connection()
 
 
-// index.js is solve but mongo dp is dhokha giving us
+ //this is alos working
 
 app.use("/", todoRouter)
 app.use(express.urlencoded({extended:true}))
